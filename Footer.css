@@ -1,0 +1,336 @@
+.footer{
+    background: rgb(247, 247, 247);
+    font-family: "Montserrat";
+   
+}
+.footer-container{
+    width: 80%;
+    margin:0 auto;
+    padding-top: 20px;
+    
+}
+
+.footer-row{
+    display: flex;
+    justify-content: flex-start; 
+   
+    
+}
+.footer-top{
+    display:  flex;
+    /* justify-content: space-evenly; */
+    line-height: 30px;
+    gap: 14px;
+    padding: 20px 0px;
+}
+.col{
+    }
+.col, h3{
+    text-align: start;
+    padding-right: 40px;
+    font-weight: 700;
+    color: rgb(29,29,29);
+    font-size: 16px;
+    
+}
+.col, li{
+    list-style: none;
+    text-align: start;
+   
+
+}
+.col, a{
+    text-decoration: none;
+    color: rgb(62, 62, 82);
+    font-weight: 400;
+    font-size: 14px;
+
+    
+}
+.footer-sec{
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 30px;
+    padding: 20px 0px;
+    
+}
+.logo{
+    text-align: start;
+}
+.para{
+    font-size: 14px;
+    text-align: start;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px 20px 30px;
+}
+
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    margin-left: 8px;  
+    font-size: 20px;
+} 
+.hr{
+    width: 96%;
+    margin-left: 17px;
+}
+    
+@media(min-width:320px){
+    .footer-container{
+    width: 100%;
+    margin:0 auto;
+    padding-top: 0px;
+    
+}
+    .footer-top{
+    display:  flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    line-height: 26px;
+    gap: 0px;
+    padding-left:15px;
+}
+    .col{
+        width: 50%;
+        padding: 0px;
+        
+    }
+    .col h3{
+        font-size: 15px;
+        padding: 5px 0px;
+
+    }
+    a{
+    text-decoration: none;
+    color: rgb(62, 62, 82);
+    font-weight: 500;
+    font-size: 13px;
+ 
+}
+    
+    .footer-sec{
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 26px;
+        padding-left:15px;
+            
+    }
+    .footer-sec .col-4{
+        width: 100%;
+        padding: 20px;
+        
+    }
+    .footer-sec, .para{
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .col-4, img{
+       width : 50px;
+    }
+    .col-2{
+        width: 50%;
+        padding: 0px;
+    }
+    .col-2, h3{
+        font-size: 15px;
+        padding: 5px 0px;
+    }
+
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+        padding-left: 15px;
+        font-size: 13px;
+        
+    }
+    .css-i4bv87-MuiSvgIcon-root{
+        margin-left: 8px;  
+       
+    }  
+    svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+        font-size: 20px;
+    }
+    .hr{
+        width: 90%;
+        margin-left: 16px;
+    }
+    
+    
+    
+}  
+@media(min-width:768px){
+    .footer-container{
+        width: 100%;
+        margin:0 auto;
+        padding-top: 0px;
+        
+    }
+        .footer-top{
+        display:  flex;
+        /* justify-content: space-evenly; */
+        flex-wrap: nowrap;
+        line-height: 25px;
+        gap: 0px;
+        padding-left:25px;
+    }
+        .col{
+            width: 20%;
+            padding: 5px;
+            
+        }
+        .col h3{
+            font-size: 15px;
+        }
+        a{
+        text-decoration: none;
+        color: rgb(62, 62, 82);
+        font-weight: 500;
+        font-size: 13px;
+       
+    }
+        
+        .footer-sec{
+            display: flex;
+            flex-wrap: nowrap;
+            line-height: 25px;
+            padding-left:15px;
+                
+        }
+        .footer-sec .col-4{
+            width: 50%;
+            /* padding: 5px; */
+            
+        }
+        .footer-sec, .para{
+            font-size: 13px;
+            font-weight: 400;
+        }
+        .col-4, img{
+           width : 85px;
+        }
+        .col-2{
+            width: 20%;
+            padding: 5px;
+        }
+        .col-2, h3{
+            font-size: 15px;
+        }
+        .bottom{
+            display: flex;
+            /* flex-wrap: nowrap; */
+            /* text-align: start; */
+            padding-left: 15px;
+            font-size: 14px;
+           
+        }
+        .css-i4bv87-MuiSvgIcon-root{
+            margin-left: 13px;  
+           
+        }  
+        svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+            font-size: 25px;
+        }
+        .hr{
+            width: 97%;
+            margin-left: 15px;
+        }
+       
+        
+} 
+@media(min-width:1028px){
+    .footer-container{
+        width: 100%;
+        margin:0 auto;
+        padding-top: 0px;
+        
+    }
+    
+        .footer-top{
+        display:  flex;
+        /* justify-content: space-evenly; */
+        flex-wrap: nowrap;
+        line-height: 30px;
+        gap: 20px;
+        padding-left:25px;
+    }
+    
+        .col{
+            width: 20%;
+            padding: 5px;
+            
+        }
+        .col h3{
+            font-size: 16px;
+        }
+        a{
+        text-decoration: none;
+        color: rgb(62, 62, 82);
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+        
+        .footer-sec{
+            display: flex;
+            flex-wrap: nowrap;
+            line-height: 28px;
+            padding-left:15px;
+                
+        }
+        .footer-sec .col-4{
+            width: 50%;
+            /* padding: 5px; */
+            
+        }
+        .footer-sec, .para{
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .col-4, img{
+           width : 85px;
+        }
+        .col-2{
+            width: 20%;
+            padding: 5px;
+            }
+        .col-2, h3{
+            font-size: 16px;
+        }
+        .bottom{
+            display: flex;
+            /* flex-wrap: nowrap; */
+            /* text-align: start; */
+            padding-left: 15px;
+            font-size: 15px;
+           
+        }
+        .css-i4bv87-MuiSvgIcon-root{
+            margin-left: 10px;  
+           
+        }  
+        svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-i4bv87-MuiSvgIcon-root {
+            font-size: 27px;
+        }
+        .hr{
+            width: 95%;
+            margin-left: 16px;
+        }
+       
+
+}  
+
+
+
+
+

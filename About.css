@@ -1,0 +1,668 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.about-container{
+    width:90%;
+    margin:0 auto;
+    padding-top: 150px;
+}
+
+.about-sec{
+    margin-top:100px;
+    margin-bottom: 30px;
+}
+.about-row{
+    display:flex;
+}
+.travel-detail{
+    display:flex;
+    gap:4%;
+    position: relative;
+    margin-top:30px;
+    margin-bottom: 30px;
+    
+   
+}
+.cab-head1 h5{
+    font-size:16px;
+    font-family: 'Montserrat' !important;
+    color: rgb(216, 78, 85);
+    font-weight:600;
+    
+}
+.travel-detail::after{
+    content: '';
+    background: rgb(229, 229, 229); 
+    position: absolute;
+    margin-top:15px;
+    height: 2px;
+    width: 70%;
+    top:35px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+.small-line{
+    height:25px;
+    width:2px;
+    background: rgb(229, 229, 229); 
+}
+
+
+
+.travel{
+    display:flex;
+    gap:10px;
+
+}
+
+.car-detail{
+    display:flex;
+    gap:10px;
+}
+.about-col h1{
+    font-weight:500;
+    font-size: 39px;
+    line-height:1.5;
+    color: rgb(29, 29, 29);
+    width: 34.5rem;
+    font-family: 'Montserrat' !important;
+    text-align: start;
+}
+
+
+.bold{
+    font-weight:900;
+    font-family: 'Montserrat' !important;
+}
+
+.about-col1{
+    width:50%;
+}
+.car-detail, img{
+
+}
+
+
+.car-2{
+    width:50%;
+}
+
+
+.travel{
+    filter: grayscale(1) brightness(0);
+    gap: 10px;
+}
+
+.travel:hover{
+    filter:none;
+}
+
+.travel-detail h5{
+     font-size:16px;
+     font-family: 'Montserrat' !important;
+}
+
+
+
+
+.travel1{
+    display: flex;
+    gap:10px;
+  
+}
+
+
+.about-para p{
+      font-size:16px;
+      font-family: 'Montserrat' !important;
+      padding-top:20px;
+      padding-bottom:20px;
+}
+
+
+
+.car-detail{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.car-word h5{
+    font-weight:800;
+    font-size: 14px;
+    font-family: 'Montserrat' !important;
+    padding-top: 10px;
+}
+
+.cars-travel{
+    padding-bottom: 60px;
+    
+}
+.cars-travel img{
+    width:100%;
+    
+}
+
+
+img.filter {
+    background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 35.25rem;
+    height: 39.25rem;
+    position: relative;
+} 
+
+
+
+.button {
+    display:flex;
+    width: 47%;
+    margin-left: 100px;
+    margin-top: 20px;
+    text-align: center;
+       
+}
+
+
+ .book span{
+    background-color: rgb(216, 78, 85);
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 13px 13px 17px 13px;
+    text-align: center;
+    border-radius: 16px 17px;
+ }
+
+
+ .east {
+    padding-top: 12px;
+    font-weight: 900;
+    margin-top: 30px;
+    font-family: 'Montserrat' !important;
+    padding-left:6px;
+    
+    
+}
+.travel-detail, img{
+    
+}
+
+
+
+
+
+@media(min-width:320px){
+    .about-container{
+        width:100%;
+        margin:0 auto;
+        padding:0px;
+    }
+  
+    .about-row{
+        display:flex;
+        flex-wrap:wrap;
+        width:100%;
+        
+
+    }
+
+    .about-col1{
+        width:100%;
+        padding-left: 15px;
+    }
+    .car-2{
+        width:100%;
+    }
+
+    
+
+.bold {
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+}
+    
+ .cars-travel{
+    width:100%;
+ }
+
+  .cars-travel img{
+    width:100%;
+  }
+  .about-col h1 {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.3;
+    /* padding-left: 15px; */
+    width:100%;
+  }
+
+  .travel-detail{
+    display:flex;
+        /* gap:4%; */
+    position: relative;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+   
+}
+.travel-detail::after{
+    content: '';
+    background: rgb(229, 229, 229); 
+    position: absolute;
+    margin-top:20px;
+    height: 2px;
+    width: 98%;
+    top:35px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+
+  .travel-detail h5{
+    font-size:11px;
+    font-family: 'Montserrat' !important;
+}
+
+.travel1{
+   display: flex;
+   
+   gap:10px;
+ 
+}
+.small-line{
+    height:27px;
+    width:1px;
+    background: rgb(229, 229, 229); 
+    
+}
+.about-para p{
+    font-size:12px;
+    font-family: 'Montserrat' !important;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.car-detail{
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+
+.car-word h5{
+    font-weight:600;
+    font-size: 11px;
+    font-family: 'Montserrat' !important;
+    padding-top: 10px;
+}
+.button {
+    display:flex;
+    width: 47%;
+    margin-left: 100px;
+    margin-top: 20px; 
+    margin-bottom : 20px;
+    text-align: center;
+       
+}
+
+
+ .book span{
+    background-color: rgb(216, 78, 85);
+    color: white;
+    font-size: 10px;
+    font-weight: 400;
+    /* padding: 12px 15px; */
+    text-align: center;
+    /* border-radius: 16px 17px; */
+ }
+
+
+ .east {
+    padding-top: 12px;
+    font-weight: 900;
+    margin-top: 30px;
+    font-family: 'Montserrat' !important;
+    padding-left:6px;
+    
+    
+}
+img.filter {
+    background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 20.25rem;
+    height: 29.25rem;
+    position: relative;
+} 
+.cars-travel{
+    padding-bottom: 5px;
+    padding-top: 25px;
+    
+}
+}
+@media(min-width: 768px){
+
+    .about-container{
+        width:100%;
+        margin:0 auto;
+        padding:0px;
+    }
+  
+    .about-row{
+        display:flex;
+        flex-wrap:nowrap;
+        width:100%;
+        
+
+    }
+
+    .about-col1{
+        width:100%;
+        padding-left: 25px;
+    }
+    .car-2{
+        width:100%;
+    }
+
+    
+
+.bold {
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+}
+    
+ .cars-travel{
+    width:100%;
+ }
+
+  .cars-travel img{
+    width:100%;
+  }
+  .about-col h1 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    /* padding-left: 15px; */
+    width:100%;
+  }
+
+  .travel-detail{
+    display:flex;
+    flex-direction: row;
+    gap:6%;
+    position: relative;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+   
+}
+.travel-detail::after{
+    content: '';
+    background: rgb(229, 229, 229); 
+    position: absolute;
+    margin-top:20px;
+    height: 2px;
+    width: 380px;
+    top:35px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+    .travel-detail, img{
+        width: 50px;
+    }
+         
+  .travel-detail h5{
+    font-size:11px;
+    font-family: 'Montserrat' !important;
+}
+
+.travel1{
+   display: flex;
+   gap:15px;
+ 
+}
+.travel{
+    display: flex;
+    gap: 15px;
+}
+.small-line{
+    height:34px;
+    width:1px;
+    background: rgb(229, 229, 229);
+    margin: 0px 10px; 
+    
+}
+.about-para p{
+    font-size:13px;
+    font-family: 'Montserrat' !important;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.car-detail{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+.car-word h5{
+    font-weight:600;
+    font-size: 14px;
+    font-family: 'Montserrat' !important;
+    padding-top: 10px;
+}
+.button {
+    display:flex;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: 20px; 
+    margin-bottom : 20px;
+    text-align: center;
+       
+}
+
+
+ .book span{
+    background-color: rgb(216, 78, 85);
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    /* padding: 12px 15px; */
+    text-align: center;
+    /* border-radius: 16px 17px; */
+ }
+
+
+ .east {
+    padding-top: 12px;
+    font-weight: 900;
+    margin-top: 30px;
+    font-family: 'Montserrat' !important;
+    padding-left:6px;
+    
+    
+}
+.svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.east.css-i4bv87-MuiSvgIcon-root{
+    font-size: 38px;
+}
+
+img.filter {
+    background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 25.25rem;
+    height: 29.25rem;
+    position: relative;
+} 
+.cars-travel{
+    padding-bottom: 5px;
+    padding-top: 0px;
+    
+}
+
+}
+@media(min-width:1028px){
+    .about-container{
+        width:100%;
+        margin:0 auto;
+        padding:0px;
+    }
+  
+    .about-row{
+        display:flex;
+        flex-wrap:nowrap;
+        width:100%;
+        
+
+    }
+
+    .about-col1{
+        width:100%;
+        padding-left: 40px;
+    }
+    .car-2{
+        width:100%;
+    }
+
+    
+
+.bold {
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+}
+    
+ .cars-travel{
+    width:100%;
+ }
+
+  .cars-travel img{
+    width:100%;
+  }
+  .about-col h1 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.6;
+    width:100%;
+  }
+
+  .travel-detail{
+    display:flex;
+    flex-direction: row;
+    gap:6%;
+    position: relative;
+    margin-top:20px;
+    margin-bottom: 20px;
+   
+   
+}
+.travel-detail::after{
+    content: '';
+    background: rgb(229, 229, 229); 
+    position: absolute;
+    margin-top:20px;
+    height: 2px;
+    width: 380px;
+    top:35px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    }
+    .travel-detail, img{
+        width: 42px;
+    }
+         
+  .travel-detail h5{
+    font-size:14px;
+    font-family: 'Montserrat' !important;
+}
+
+.travel1{
+   display: flex;
+   gap:16px;
+ 
+}
+.travel{
+    display: flex;
+    gap: 16px;
+}
+.small-line{
+    height:34px;
+    width:1px;
+    background: rgb(229, 229, 229);
+    margin: 0px 10px; 
+    
+}
+.about-para p{
+    font-size:15px;
+    font-family: 'Montserrat' !important;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.car-detail{
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.car-word h5{
+    font-weight:600;
+    font-size: 15px;
+    font-family: 'Montserrat' !important;
+    padding-top: 0px;
+}
+.button {
+    display:flex;
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 20px; 
+    margin-bottom : 20px;
+    text-align: center;
+       
+}
+
+
+ .book span{
+    background-color: rgb(216, 78, 85);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* padding: 12px 15px; */
+    text-align: center;
+    /* border-radius: 16px 17px; */
+ }
+
+
+ .east {
+    padding-top: 12px;
+    font-weight: 900;
+    margin-top: 30px;
+    font-family: 'Montserrat' !important;
+    padding-left:6px;
+    
+    
+}
+svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.east.css-i4bv87-MuiSvgIcon-root {
+    font-size: 40px;
+    margin-bottom:-8px;
+}
+
+
+img.filter {
+    background-image: url(https://s3.rdbuz.com/web/images/homeV2/AboutUs/aboutUsImg.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    width: 35.25rem;
+    height: 39.25rem;
+    position: relative;
+} 
+.cars-travel{
+    padding-bottom: 20px;
+    padding-top: 0px;
+    
+}
+.car-detail, img{
+    
+}
+
+}

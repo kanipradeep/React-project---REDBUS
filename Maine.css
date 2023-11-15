@@ -1,0 +1,83 @@
+.search-container{
+    width:80%;
+    margin:0 auto;
+}
+
+.search-sec{
+    position: absolute;
+    top:210px;
+    left:30px;
+    bottom:0;
+    right:0;
+}
+.search-row{
+    display: flex;
+    align-items: center;
+    margin-left:100px;
+    position:relative;
+    text-align: center;
+    background: #fff;
+    border-radius: 30px;
+    
+    
+}
+
+.places{
+    display: flex;
+    padding: 20px;
+    color: #6b6b6b;
+    border-right: 1px solid rgb(224,224,224);
+    
+     }
+#direct{
+    padding-top: 15px;
+    color: #6b6b6b;
+    
+    }
+
+#filled-basic{
+    background-color: white;
+    padding: 20px 0px;
+    border: none;
+    color: #6b6b6b;
+    text-decoration: none;
+    }
+
+#search-bus{
+    
+    padding: 20px;
+    border-radius: 0px 20px 20px 0px;
+    background: rgb(216, 78, 85);
+    font-weight: 700;
+    font-size: 20px;
+}
+#arrow{
+    border: solid 1px #6b6b6b ; 
+    border-radius: 25px ;
+    padding: 3px;
+    font-size: 35px;
+    position: relative;
+    color: #6b6b6b;
+    position: relative;
+    right:2%;
+    background: white;
+    
+}
+#alert{
+    color:hsl(10,85%,47%);
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    text-align: start;
+    padding-left: 140px;
+    font-family: 'Montserrat'! important;
+}
+
+/* svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.arrow.css-i4bv87-MuiSvgIcon-root {
+    padding: 3px;
+    font-size: 50px;
+} */
+/* .MuiFormControl-root.MuiTextField-root.css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+    border-right: 1px solid rgb(224,224,224);
+
+} */

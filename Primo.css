@@ -1,0 +1,87 @@
+.primo-sec{
+    margin: 50px 0px;
+}
+.primo-container{
+    width: 90%;
+    margin: 0 auto;
+}
+.primo-row{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 0px; 
+    gap: 40px;
+
+
+}
+.primo-card{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(38, 72, 153), rgb(125, 70, 134));
+    text-align: start;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+.pri-content h4{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    line-height: 27px;
+    font-weight: 700;
+    
+}
+.pri-content p{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+@media(min-width:320px)
+{
+    .primo-card{
+        width:100%;
+        margin-top: 10px;
+        padding: 20px;
+            }
+    .pri-image{
+        width:100%;
+    }     
+    .primo-row{
+        display:flex;
+        flex-wrap: wrap;
+    }   
+    
+}
+@media(min-width:768px)
+{
+    .primo-card{
+        width:33.3%;
+        margin-top: 0px;
+        gap: 10px;
+            }
+    .pri-image{
+        width:50%;
+    }     
+    .primo-row{
+        display:flex;
+        flex-wrap: nowrap;
+        gap:30px;
+    }   
+    
+}
+@media(min-width:1028px)
+{
+    .primo-card{
+        width:33.3%;
+        margin-top: 0px;
+        gap: 5%;
+            }
+    .pri-image{
+        width:50%;
+    }     
+    .primo-row{
+        display:flex;
+        flex-wrap: nowrap;
+        gap:20px;
+    }   
+    
+}

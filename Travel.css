@@ -1,0 +1,289 @@
+.buseslist-sec{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.buseslist-container{
+    /* display: flex; */
+    width: 100%;
+     margin: 0 auto;  
+}
+.buses-list1{
+    display: flex;
+    
+    line-height: 2.5;
+    margin-left: 25px;
+    
+
+}
+.buses-list2{
+     padding-left: 40px;
+     width: 80%;
+
+}
+.sec1-buslist{
+    text-align: start;
+    width: 15%;
+}
+
+.filter h5{
+    font-size: 12px;
+    color: #3e3e52;
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+}
+.brake{
+    border: 1px solid #eee;
+    width:100%;
+    margin-top:10px;
+}
+.filter h4{   
+    font-size: 12px;
+    align-items: center;
+    gap: 2%;
+    padding-top: 6px;
+    display: flex;
+    color: #c2c2cf;
+    font-family: 'Montserrat' !important;
+}
+.filter h4:hover{
+    color: #d84e55;
+    font-family: 'Montserrat' !important;
+}
+
+.depart h5{
+    font-size: 12px;
+    color: #3e3e52;
+    padding-top: 10px;font-weight: 700;
+    font-family: 'Montserrat' !important;
+
+}
+.depart-time{
+    display: flex;  
+    align-items: center;
+    color: #b3abab;
+}
+.avble-time{
+    font-size:14px;
+    font-family: 'Montserrat' !important;
+
+}
+.av-time{
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.9;
+    font-family: 'Montserrat' !important;
+
+}
+.av-time:hover{
+    color: #d84e55;
+}
+.sec2-bustype h5{
+    font-size: 13px;
+    color: #4c4c5a;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: 'Montserrat' !important;
+
+}
+
+.coach{
+    color: #b3abab;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat' !important;
+
+}
+.coach:hover{
+    color: #d84e55;
+}
+.sec3-facilities{
+    font-size: 13px;
+    color: #3e3e52;
+    margin-top:20px;
+    font-weight: 700;
+    font-family: 'Montserrat' !important;
+
+}
+.amenities{
+    border:1px solid #e2e1e1;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding:0px 5px 0px 4px;
+    width:100%;
+    margin-bottom: 5px;
+    max-width: fit-content;
+    cursor: pointer;
+
+}
+ #am{
+    font-size:20px;
+    color:black;
+}
+.a-icon{
+    color: #3e3e52;
+    padding-left: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Montserrat' !important;
+
+}
+
+.head-list{
+    display: flex;
+    
+
+}
+.row1{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 20px;
+    padding-right: 4px;
+    border:1px solid #eee;
+    margin-bottom: 20px;
+}
+
+.row1:hover{
+    box-shadow: 0 16px 30px 1px rgba(0,0,0,.1);
+    transition: 1s;
+}
+
+.list1{
+    display: flex;
+    /* width: 100%; */
+    
+    
+}
+.area1{
+    width: 30%;
+}
+.logo-image img{
+    width: 5rem;
+    height: 2.25rem;
+}
+
+
+
+.starttime{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    padding-left: 120px;
+    
+    
+}
+.endtime{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+
+}
+
+.startplace{
+    color: #b3abab;
+    padding-left: 120px;
+}
+
+.endplace{
+    color: #b3abab;
+    padding-left: 100px;
+
+}
+
+
+.rating{
+    display: flex;
+    background-color: #38b87c;
+    color: white;
+    height: 30px;
+    width: 70px;
+    padding: 20px, 20px;
+    
+    border-radius: 4px;
+    margin-left: 70px;
+    
+}
+#star{
+    font-size: 17px;
+
+    
+}
+.amount{
+    padding-left: 70px;
+}
+#facility-icon{
+    font-size:18px;
+    margin-right:6px;
+    margin-top:9px;
+}
+.short{
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    color: #3e3e52;
+}
+.time1{
+    /* margin-right:28px; */
+    color: #b3abab;
+    margin-left: 12px;
+}
+
+span.sort {
+    margin-left: 143px;
+    margin-right: 41px;
+    color: black;
+    font-weight:600;
+}
+
+
+span.time1 {
+    margin-right: 40px;
+    
+    color: #b3abab;
+    
+}
+
+
+span.time2 {
+    margin-right: 78px;
+    margin-left: 88px;
+    color: #b3abab;
+}
+
+
+span.time3 {
+    margin-left: 45px;
+    margin-right: 30px;
+    color: #b3abab;
+}
+
+
+span.time4 {
+    margin-left: 35px;
+    color: #b3abab;
+}
+.seat{
+     font-size: 13px; 
+     font-weight: 400;
+     width: 70px;
+     height: 40px;
+     text-decoration: none;
+     border: none;
+     margin-top:130px;
+     text-align: center;
+     background-color: #d84e55;
+     color: #fff;
+     margin-left: 110px;
+ }
+ 
+
+  

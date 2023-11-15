@@ -1,0 +1,225 @@
+{
+    "busdetails" : [{
+        "from": "tenkasi",
+        "to" : "coimbatore",
+        "date" : "03/08/2023",
+        "buses" : [
+            {
+            "busname" : "A1 Travels" ,
+            "bustype" : "NON AC Seater",
+            "starttime" : "20:25",
+            "startplace" : "Newbusstand",
+            "endtime" : "04:50",
+            "endplace" : "Gandhipuram",
+            "rating" : "4.5",
+            "rate" : "500"
+            
+        }, 
+
+        {
+            "busname" : "SPS Travels India",
+            "bustype" : "NON AC Seater",
+            "starttime" :  "20:25",
+            "startplace" : "Newbusstand",
+            "endplace" : "Gandhipuram",
+            "endtime" : "04:50",
+            "rating" : "4.6",
+            "rate" : "500"
+            
+        }, 
+
+        {
+            "busname" : "Sree Travels",
+            "bustype" : "NON AC Seater ",
+            "starttime" :  "21:10",
+            "startplace" : "Newbusstand",
+            "endplace" : "Newbusstand",
+            "endtime" : "05:00",
+            "rating" : "4.5",
+            "rate" : "750"
+            
+        },
+
+        
+
+        {
+            "busname" : "National Travels Madurai" ,
+            "bustype" : "NON AC Seater ",
+            "starttime" : "20:25",
+            "startplace" : "Newbusstand",
+            "endtime" : "05:15",
+            "endplace" : "Gandhipuram",
+            "rating" : "4.5",
+            "rate" : "900"
+            
+
+        }, 
+
+        {
+            "busname" : "Mitra travels",
+            "bustype" : "NON AC Seater ",
+            "starttime" : "21:10" ,
+            "startplace" : "Newbusstand",
+            "endtime" : "05:00" ,
+            "endplace" : "Gandhipuram",
+            "rating" : "4.5",
+            "rate" : "750"
+          
+        }
+
+        
+    ]
+
+    } ,
+    
+
+    {
+        "from": "tirunelveli",
+        "to" : "salem",
+        "date" : "03/08/2023",
+        "buses" : [
+            {
+            "busname" : "A1 Travels" ,
+            "bustype" : "NON AC Seater",
+            "starttime" : "21:00",
+            "startplace" : "Newbusstand",
+            "endtime" : "03:40",
+            "endplace" : "Newbusstand",
+            "rating" : "4.5",
+            "rate" : "900"
+             
+
+        }, 
+
+        {
+            "busname" : "Royal Travels",
+            "bustype" : "NON AC Seater",
+            "starttime" :  "19:30",
+            "startplace" : "Newbusstand",
+            "endtime" : "02:00",
+            "endplace" : "Newbusstand",
+            "rating" : "4.6",
+            "rate" : "800"
+            
+        }, 
+
+
+        {
+            "busname" : "Kallada Travels" ,
+            "bustype" : "NON AC Seater",
+            "starttime" :  "22:45",
+            "startplace" : "Newbusstand",
+            "endtime" : "04:45",
+            "endplace" : "5 roads",
+            "rating" : "4.5",
+            "rate" : "950"
+            
+        }, 
+
+        
+
+        {
+            "busname" : "Neem Travels" ,
+            "bustype" : "NON AC Seater",
+            "starttime" : "20:50",
+            "startplace" : "Newbusstand",
+            "endtime" : "03:30",
+            "endplace" : "Oldbusstand",
+            "rating" : "4.4",
+            "rate" : "950"
+            
+        }, 
+        
+
+        {
+            "busname" : "VKV travels" ,
+            "bustype" : "NON AC Seater",
+            "starttime" : "19:25" ,
+            "startplace" : "Newbusstand",
+            "endtime" : "02:25" ,
+            "endplace" : "Newbusstand",
+            "rating" : "4.5",
+            "rate" : "940"
+            
+        }
+
+        
+    ]
+
+    },
+
+
+
+{
+    "from": "pavoorchatram",
+    "to" : "chennai",
+    "date" : "03/08/2023",
+    "buses" : [
+        {
+        "busname" : "LION Travels" ,
+        "bustype" : "NON AC Seater",
+        "starttime" : "18:30",
+        "startplace" : "Bus Stand",
+        "endplace" : "Omni Bus Stand",
+        "endtime" : "06:40",
+        "rating" : "4.6",
+        "rate" : "800"
+            }, 
+
+    {
+        "busname" : "MRM Travels",
+        "bustype" : "NON AC Seater",
+        "starttime" :  "19:25",
+        "startplace" : "Bus Stand",
+        "endtime" : "07:45",
+        "endplace" : "Omni Bus Stand",
+        "rating" : "4.4",
+        "rate" : "940"
+       
+    }, 
+
+    {
+        "busname" : "Sri Krishna Travels",
+        "bustype" : "NON AC Seater",
+        "starttime" :  "19:40",
+        "startplace" : "Bus Stand",
+        "endtime" : "06:00",
+        "endplace" : "Omni Bus Stand",
+        "rating" : "4.6",
+        "rate" : "990"
+       
+    }, 
+
+
+    
+    {
+        "busname" : "Amarnath Travels" ,
+        "bustype" : "NON AC Seater / Sleeper",
+        "starttime" : "18:30",
+        "startplace" : "Bus Stand",
+        "endtime" : "07:35",
+        "endplace" : "Omni Bus Stand",
+        "rating" : "4.5",
+        "rate" : "899"
+        
+    },
+
+    {
+        "busname" : "Sri SMS travels",
+        "bustype" : "NON AC Seater",
+        "starttime" : "18:30" ,
+        "startplace" : "Bus Stand",
+        "endtime" : "07:05" ,
+        "endplace" : "Omni Bus Stand",
+        "rating" : "4.3",
+        "rate" : "499"
+        
+
+    }
+
+    
+]
+
+}
+ ]
+}

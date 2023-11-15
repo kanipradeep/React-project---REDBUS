@@ -1,0 +1,322 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+.header{
+    box-shadow: 0 86px 34px rgba(0,0,0,.01), 0 48px 29px rgba(0,0,0,.03), 0 5px 12px rgba(0,0,0,.05), 0 0 0 rgba(0,0,0,.05);
+    font-family: "Montserrat";
+
+}
+.header-container{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.header-row{
+    /*display: flex; */
+    /* justify-content: space-between; */
+
+}
+.head{
+    width:20%;
+}
+.red-bus img{
+    width:48%;
+    padding:20px;
+}
+.booking{
+   display: flex; 
+   width: 60%; 
+   gap: 6%;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   margin-right: 150px;
+   
+}
+.header-end{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-top: 25px;
+}
+.link img{
+    width: 50%;
+    filter: grayscale(1) brightness(0);
+
+}
+.link img:hover{
+    filter: none;
+}
+.tickets h6{
+    color: #1d1d1d;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top:9px;
+    font-family: "Montserrat" !important; 
+}
+
+/* .header-end{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    padding-top: 25px;
+} */
+
+.account{
+    display: flex;
+    gap: 9%;
+         
+}
+.headset{
+    color: #4a4a4a;
+    
+    cursor: pointer;
+}
+.para1{
+    color: #4a4a4a;
+    cursor: pointer;
+    
+
+}
+
+.icon1{
+    color: #4a4a4a;
+    cursor: pointer;
+}
+
+@media(min-width:320px){
+    .header{
+        box-shadow: 0 86px 34px rgba(0,0,0,.01), 0 48px 29px rgba(0,0,0,.03), 0 5px 12px rgba(0,0,0,.05), 0 0 0 rgba(0,0,0,.05);
+        font-family: "Montserrat";
+    
+    }
+    .header-container{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .header-row{
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    .head{
+        width:20%;
+    }
+    .red-bus img{
+        width:70px;
+        padding:20px;
+    }
+    .booking{
+       display: flex; 
+       width: 60%; 
+       gap: 15%;
+       padding-top: 20px;
+       padding-bottom: 10px;
+       margin-right: 150px;
+       
+    }
+    .header-end{
+        display: flex;
+        justify-content: flex-end;
+        width: 20%;
+        padding-right:58px;
+            }
+    .link img{
+        width: 50%;
+        filter: grayscale(1) brightness(0);
+    
+    }
+    .link img:hover{
+        filter: none;
+    }
+    .tickets h6{
+        color: #1d1d1d;
+        font-size: 9px;
+        font-weight: 400;
+        padding-top:4px;
+        font-family: "Montserrat" !important; 
+    }
+    
+    
+    .account{
+        display: flex;
+        gap: 9%;
+             
+    }
+    .headset{
+        color: #4a4a4a;
+        
+        cursor: pointer;
+    }
+    .para1{
+        color: #4a4a4a;
+        cursor: pointer;
+        font-size: 9px;
+          
+    }
+    
+    .icon1{
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+    
+}
+@media(min-width:768px){
+    .header{
+        box-shadow: 0 86px 34px rgba(0,0,0,.01), 0 48px 29px rgba(0,0,0,.03), 0 5px 12px rgba(0,0,0,.05), 0 0 0 rgba(0,0,0,.05);
+        font-family: "Montserrat";
+    
+    }
+    .header-container{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .header-row{
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    .head{
+        width:20%;
+    }
+    .red-bus img{
+        width:95px;
+        padding:20px;
+    }
+    .booking{
+       display: flex; 
+       width: 60%; 
+       gap: 15%;
+       padding-top: 20px;
+       padding-bottom: 10px;
+       margin-right: 150px;
+       
+    }
+    .header-end{
+        display: flex;
+        justify-content: flex-end;
+        width: 20%;
+        padding-right:58px;
+            }
+    .link img{
+        width: 60%;
+        filter: grayscale(1) brightness(0);
+    
+    }
+    .link img:hover{
+        filter: none;
+    }
+    .tickets h6{
+        color: #1d1d1d;
+        font-size: 11px;
+        font-weight: 400;
+        padding-top:4px;
+        font-family: "Montserrat" !important; 
+    }
+    
+    
+    .account{
+        display: flex;
+        gap: 9%;
+             
+    }
+    .headset{
+        color: #4a4a4a;
+        
+        cursor: pointer;
+    }
+    .para1{
+        color: #4a4a4a;
+        cursor: pointer;
+        font-size: 11px;
+          
+    }
+    
+    .icon1{
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+    
+}
+@media(min-width:1028px){
+    .header{
+        box-shadow: 0 86px 34px rgba(0,0,0,.01), 0 48px 29px rgba(0,0,0,.03), 0 5px 12px rgba(0,0,0,.05), 0 0 0 rgba(0,0,0,.05);
+        font-family: "Montserrat";
+    
+    }
+    .header-container{
+        width: 100%;
+        margin: 0 auto;
+        
+    }
+    .header-row{
+        display: flex;
+        justify-content: flex-start;
+    
+    }
+    .head{
+        width:20%;
+    }
+    .red-bus img{
+        width:100px;
+        padding:20px;
+    }
+    .booking{
+       display: flex; 
+       width: 60%; 
+       gap: 10%;
+       padding-top: 20px;
+       padding-bottom: 10px;
+       margin-right: 150px;
+       
+    }
+    .header-end{
+        display: flex;
+        justify-content: flex-end;
+        width: 20%;
+        padding-right:58px;
+            }
+    .link img{
+        width: 60%;
+        filter: grayscale(1) brightness(0);
+    
+    }
+    .link img:hover{
+        filter: none;
+    }
+    .tickets h6{
+        color: #1d1d1d;
+        font-size: 12px;
+        font-weight: 400;
+        padding-top:4px;
+        font-family: "Montserrat" !important; 
+    }
+    
+    
+    .account{
+        display: flex;
+        gap: 9%;
+             
+    }
+    .headset{
+        color: #4a4a4a;
+        
+        cursor: pointer;
+    }
+    .para1{
+        color: #4a4a4a;
+        cursor: pointer;
+        font-size: 12px;
+          
+    }
+    
+    .icon1{
+        color: #4a4a4a;
+        cursor: pointer;
+    }
+    
+}

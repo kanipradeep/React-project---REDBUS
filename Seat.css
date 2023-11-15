@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.double-seat {
+    background: aliceblue;
+    width: 20%;
+    border: 1px solid #775151;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap:20%;
+    align-items: center;
+   
+    /* margin-left:20px; */
+}
+.main-div {
+    background: #fcfbfb;
+    border: 1px solid;
+    height: 60vh;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 21px;
+    
+}
+.single-seat{
+    width: 20%;
+    align-self: flex-end;
+    border: 1px solid #8d4343;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 12px; */
+    background: aliceblue;
+    margin-top: 60px;
+}
+
+.seat-active{
+    background-color: red;
+}
+.box-div {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.box-div{
+    background-color: #d7d0d0;
+    color:#4a4a4a;
+   
+}
+
+
+.seat-book{
+    background-color: #d7d0d0;
+}
+
+.seat-amount{
+    display: flex;
+    gap:20px;
+    padding-top: 20px;
+    padding-left: 40px;
+    align-items: center;
+}
+
+
+.rate h6{
+    text-decoration: line-through;
+    padding-top: 10px;
+    font-size:12px;
+    text-align: center;
+    color: #7e7e8c;
+    padding-bottom: 10px;
+}
+
+
+.rate h5{
+    background-color: white;
+    padding: 6px;
+    margin-top: 16px;
+    border-radius: 5px;
+}
+
+.rate{
+    padding-top: 10px;
+}
+
+.seat-book{
+   padding-left: 40px;
+
+}
+
+
+.seat-amount {
+    border-bottom: 1px solid #c2c2c2;
+}
+
+
+.price{
+
+    font-family: 'Montserrat', sans-serif;
+}
+ .lower{
+    padding-top:40px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+
+
+.details{
+     background-color: white;
+     padding: 40px 66px 31px 40px;
+     margin-left: 40px;
+}
+
+
+#circle{
+    width:10px !important;
+}
+
+
+
+.tracking{
+    align-items: center;
+     border-bottom: 1px solix #eee;
+}
+
+.live{
+    display: flex;
+    padding-top: 9px;
+}
+
+
+ .live{
+    display:flex;
+    gap:5%;
+    align-items: center;
+ }
+
+
+.brief
+{
+ padding-top:4px;
+ margin-left:20px;
+ font-size:13px;
+ color:#ccc;
+}
+
+.brief1{
+ padding-top:4px;
+ margin-left:20px;
+ font-size:13px;
+ color:#ccc;
+
+ padding-bottom: 20px;
+}
+
+.loc-track{
+    border-bottom: 1px solid #361919;
+}
+
+.seat-number{
+
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    border-bottom: 1px solid #361919;
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+
+
+.amt-detail{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom:20px;
+     gap:10%;
+}
+
+
+.price-bus{
+      
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.payment-but{
+    text-align:center;
+    padding:10px;
+}
+ 
+.proced{
+    padding:10px;
+    color:white;
+    background-color: #d84e55;
+    border:none;
+}
+
+.amt-head h4{
+    font-size:15px;
+     padding-bottom: 6px;
+}
+
+.amt-head h5{
+    padding-top: 10px;
+}
+
+.amt-head p{
+    padding-top: 10px;
+    font-size:12px;
+}
